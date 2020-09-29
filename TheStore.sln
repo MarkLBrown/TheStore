@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TheStore.Web", "TheStore.Web\", "{948C397A-3340-46F3-B065-36CCF5A30272}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9758"
+		Debug.AspNetCompiler.PhysicalPath = "TheStore.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9758\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9758"
+		Release.AspNetCompiler.PhysicalPath = "TheStore.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9758\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9758"
+		SlnRelativePath = "TheStore.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{EE4348D2-E069-4190-9618-C264440DEF2A} = {EE4348D2-E069-4190-9618-C264440DEF2A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheStore.Core", "TheStore.Core\TheStore.Core.csproj", "{EE4348D2-E069-4190-9618-C264440DEF2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{948C397A-3340-46F3-B065-36CCF5A30272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948C397A-3340-46F3-B065-36CCF5A30272}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4348D2-E069-4190-9618-C264440DEF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4348D2-E069-4190-9618-C264440DEF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4348D2-E069-4190-9618-C264440DEF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4348D2-E069-4190-9618-C264440DEF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E199107B-458E-4116-B258-D8CA73CEA849}
+	EndGlobalSection
+EndGlobal
